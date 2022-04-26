@@ -1,11 +1,12 @@
 package bitmex
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"log"
 	"testing"
 	"time"
+
+	. "github.com/coinrust/crex"
+	"github.com/coinrust/crex/configtest"
 )
 
 func testExchange() *BitMEX {

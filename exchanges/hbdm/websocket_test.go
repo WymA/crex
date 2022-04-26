@@ -1,10 +1,11 @@
 package hbdm
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"log"
 	"testing"
+
+	. "github.com/coinrust/crex"
+	"github.com/coinrust/crex/configtest"
 )
 
 func testWebSocket() *HbdmWebSocket {

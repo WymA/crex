@@ -3,13 +3,14 @@ package main
 import (
 	"bufio"
 	"flag"
-	"github.com/spf13/cast"
 	"io"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/spf13/cast"
 )
 
 var (
