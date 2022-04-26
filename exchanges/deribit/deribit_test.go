@@ -1,11 +1,12 @@
 package deribit
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"log"
 	"testing"
 	"time"
+
+	. "github.com/coinrust/crex"
+	"github.com/coinrust/crex/configtest"
 )
 
 func newForTest() Exchange {
