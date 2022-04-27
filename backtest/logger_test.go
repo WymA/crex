@@ -1,8 +1,9 @@
 package backtest
 
 import (
-	"github.com/coinrust/crex/log"
 	"testing"
+
+	"github.com/WymA/crex/log"
 )
 
 func TestBtLogger(t *testing.T) {

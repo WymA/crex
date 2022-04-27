@@ -1,4 +1,4 @@
-module github.com/coinrust/crex
+module github.com/WymA/crex
 
 go 1.15
 

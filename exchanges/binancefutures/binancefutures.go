@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/utils"
 	"github.com/adshao/go-binance/v2/futures"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/utils"
 )
 
 // BinanceFutures the Binance futures exchange

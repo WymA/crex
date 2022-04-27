@@ -2,7 +2,6 @@ package dataloader
 
 import (
 	"bufio"
-	. "github.com/coinrust/crex"
 	"io"
 	"log"
 	"os"
@@ -10,6 +9,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	. "github.com/WymA/crex"
 )
 
 type CsvDataLoader struct {

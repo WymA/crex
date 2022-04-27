@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/MauriceGit/skiplist"
-	. "github.com/coinrust/crex"
+	. "github.com/WymA/crex"
 	"github.com/frankrap/deribit-api/models"
 )
 

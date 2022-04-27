@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	. "github.com/coinrust/crex"
+	. "github.com/WymA/crex"
 	"github.com/frankrap/deribit-api"
 	"github.com/frankrap/deribit-api/models"
 )

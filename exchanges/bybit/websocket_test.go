@@ -1,9 +1,10 @@
 package bybit
 
 import (
-	. "github.com/coinrust/crex"
 	"log"
 	"testing"
+
+	. "github.com/WymA/crex"
 )
 
 func testWebSocket() *BybitWebSocket {

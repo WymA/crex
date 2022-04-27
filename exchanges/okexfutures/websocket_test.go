@@ -1,10 +1,11 @@
 package okexfutures
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"log"
 	"testing"
+
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/configtest"
 )
 
 func testWebSocket() *FuturesWebSocket {

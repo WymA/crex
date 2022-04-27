@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/coinrust/crex"
+	. "github.com/WymA/crex"
 	"github.com/frankrap/bybit-api/rest"
 )
 

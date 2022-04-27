@@ -1,11 +1,12 @@
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/backtest"
-	"github.com/coinrust/crex/dataloader"
-	"github.com/coinrust/crex/exchanges/exsim"
 	"time"
+
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/backtest"
+	"github.com/WymA/crex/dataloader"
+	"github.com/WymA/crex/exchanges/exsim"
 )
 
 type BasicStrategy struct {

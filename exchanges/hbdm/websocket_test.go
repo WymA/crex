@@ -4,8 +4,8 @@ import (
 	"log"
 	"testing"
 
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/configtest"
 )
 
 func testWebSocket() *HbdmWebSocket {

@@ -1,9 +1,10 @@
 package backtest
 
 import (
-	"github.com/coinrust/crex"
 	"testing"
 	"time"
+
+	"github.com/WymA/crex"
 )
 
 func TestStrategyTester_CalAnnReturn(t *testing.T) {

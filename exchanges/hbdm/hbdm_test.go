@@ -1,10 +1,11 @@
 package hbdm
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"testing"
 	"time"
+
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/configtest"
 )
 
 func testExchange(websocket bool) *Hbdm {

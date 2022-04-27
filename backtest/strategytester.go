@@ -3,10 +3,6 @@ package backtest
 import (
 	"bytes"
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/log"
-	"github.com/spf13/cast"
-	"github.com/tidwall/gjson"
 	"io/ioutil"
 	"math"
 	"os"
@@ -14,6 +10,11 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/log"
+	"github.com/spf13/cast"
+	"github.com/tidwall/gjson"
 )
 
 type StrategyTesterParams struct {

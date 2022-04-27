@@ -1,9 +1,10 @@
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
 	"log"
+
+	. "github.com/WymA/crex"
+	"github.com/WymA/crex/exchanges"
 )
 
 func main() {
